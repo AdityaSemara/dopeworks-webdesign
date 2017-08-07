@@ -1,0 +1,101 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Untitled Document</title>
+<link rel="stylesheet" href="css/bootstrap.css">
+<link rel="stylesheet" href="css/style.css">
+<link rel="stylesheet" href="css/jquery.fullPage.css">
+<script src="js/jquery.js"></script>
+<script src="js/bootstrap.js"></script>
+<script src="js/jquery.fullPage.js"></script>
+</head>
+
+<body>
+	<header>
+		<nav class="navbar navbar-inverse navbar-default navbar-fixed-top" id="custume">
+			<div class="navbar-header">
+				<button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-ex1-collapse">
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+				</button>
+				<a href="#" class="navbar-brand"><img src="image/logo.png" alt=""></a>
+			</div>
+			<div class="collapse navbar-collapse navbar-ex1-collapse nav-color">
+				<ul class="nav navbar-nav">
+					<li><a href="#">What We Do?</a></li>
+					<li><a href="#">Service</a></li>
+					<li><a href="#">Contact</a></li>
+				</ul>
+			</div>
+		</nav>
+	</header>
+	
+	<div class="bungkus">
+		<div class="section">
+			<div class="container-fluid slide-1">
+				<div class="col-md-6 text">
+					<h3>Laru&trade;</h3>
+					<p>We help LARU to build they</p>
+					<p>Android and IOS application</p>
+					<a href="#">Read More</a>
+				</div>
+				<div class="col-md-6 gambar">
+					<img src="image/device-1.png" alt="" class="device-1 img-responsive">
+					<img src="image/device-2.png" alt="" class="device-2 img-responsive">
+				</div>
+			</div>
+		</div>
+		<div class="section">
+			<div class="container-fluid slide-2">
+				<div class="col-md-12 text-2">
+					<h3>SHEDINK&trade;</h3>
+					<p>Your Tattoo directory</p>
+					<p>Companion</p>
+					<a href="#">Read More</a>
+				</div>
+				<div class="col-md-6 gambar-2">
+					<img src="image/device-3.png" alt="" class="device-3">
+				</div>
+			</div>
+		</div>
+		<div class="section">
+			<div class="container-fluid slide-3">
+				<div class="col-md-6 text-3">
+					<h3>NET</h3>
+					<p>Indonesia Morning Show</p>
+					<p>Web Development</p>
+					<a href="#">Read More</a>
+				</div>
+				<div class="col-md-6 gambar-3">
+					<img src="image/device-4.png" alt="" class="device-4">
+				</div>
+			</div>
+		</div>
+		<div class="section">
+			<div class="container-fluid slide-4">
+				<div class="col-md-6 text-4">
+					<h3>Beng beng maxx</h3>
+					<p>Modeling and Rendering</p>
+					<p>Beng Beng Maxx</p>
+					<a href="#">Read More</a>
+				</div>
+				<div class="col-md-6 gambar-4">
+					<img src="image/gambar-2.png" alt="" class=" beng-beng">
+				</div>
+			</div>
+		</div>
+	</div>
+	<script>
+		$(document).ready(function(){
+			$('.bungkus').fullpage({
+				anchors: ['firstPage', 'secondPage', '3rdPage'],
+				navigation: true,
+				navigationPosition: 'right',
+				navigationTooltips: ['First', 'Second', 'Third','Four']
+			});
+		});
+	</script>
+</body>
+</html>
