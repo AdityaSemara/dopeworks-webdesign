@@ -411,7 +411,7 @@
 	}
 	
 }
-@media (min-width : 768px) and (max-width : 979px ){
+@media (min-width : 768px) and (max-width : 1199px ){
 	/*slide-1*/
 	.text{
 		float: left;
